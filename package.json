@@ -1,0 +1,25 @@
+{
+  "name": "stateyourcapital",
+  "version": "1.0.0",
+  "description": "A Test for 5th graders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/StateYourCapital"
+  },
+  "author": "Danny Dowell && Jake Corn",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}

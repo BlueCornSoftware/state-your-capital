@@ -1,0 +1,7 @@
+[
+    "./node_modules/angular/angular.min.js",
+    "./src/js/app.module.js",
+    "./src/js/app.config.js",
+    "./src/js/services/**/*.js",
+    "./src/js/components/**/*.js"
+]
