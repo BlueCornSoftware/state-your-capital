@@ -47,7 +47,10 @@ gulp.task('build', function() {
 
 gulp.task('copy-templates', function() {
     gulp.src('./src/js/**/*.html')
-        .pipe(gulp.dest('./environments/dev/templates/'));
+        .pipe(gulp.dest('./environments/dev/templates/'))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
 });
 
 gulp.task('browser-sync', function() {
